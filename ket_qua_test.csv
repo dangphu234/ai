@@ -3,14 +3,14 @@ neutral1.jpg,easy,Neutral,Neutral,0.584,True,OK,,biểu cảm trung tính
 neutral2.jpg,easy,Neutral,Neutral,0.735,True,OK,,biểu cảm trung tính
 neutral3.jpg,easy,Neutral,Neutral,0.525,True,OK,,biểu cảm trung tính
 sad1.jpg,easy,Sad,Neutral,0.478,False,OK,,biểu cảm buồn
-sad2.jpg,easy,Sad,Disgust,0.292,False,OK,"Độ tin cậy thấp, biểu cảm có thể quá nhẹ hoặc mơ hồ.",biểu cảm buồn
-sad3.jpg,easy,Sad,Fear,0.524,False,OK,"Cảnh báo: ảnh quá sáng hoặc cháy sáng. | Có 2 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm buồn
-surprise1.jpg,easy,Surprise,Surprise,0.832,True,OK,"Cảnh báo: ảnh có vẻ bị mờ, kết quả có thể kém chính xác.",biểu cảm ngạc nhiên
-surprise2.jpg,easy,Surprise,Surprise,0.933,True,OK,Cảnh báo: ảnh quá sáng hoặc cháy sáng.,biểu cảm ngạc nhiên
+sad2.jpg,easy,Sad,Chưa chắc (Disgust),0.292,False,Chưa chắc,Chưa chắc: điểm cao nhất dưới ngưỡng 40%; hãy xem các điểm số bên cạnh.,biểu cảm buồn
+sad3.jpg,easy,Sad,Fear,0.524,False,OK,"Có 2 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm buồn
+surprise1.jpg,easy,Surprise,Surprise,0.832,True,OK,,biểu cảm ngạc nhiên
+surprise2.jpg,easy,Surprise,Surprise,0.933,True,OK,,biểu cảm ngạc nhiên
 surprise3.jpg,easy,Surprise,Surprise,0.742,True,OK,"Có 5 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm ngạc nhiên
 tucgian1.jpg,easy,Angry,Angry,0.459,True,OK,"Có 2 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm tức giận
 tucgian2.jpg,easy,Angry,Angry,0.525,True,OK,,biểu cảm tức giận
 tucgian3.jpg,easy,Angry,Angry,0.511,True,OK,,biểu cảm tức giận
-vui_1.jpg,easy,Happy,Happy,0.543,True,OK,,biểu cảm vui
-vui_2.jpg,easy,Happy,Happy,0.75,True,OK,"Cảnh báo: ảnh quá sáng hoặc cháy sáng. | Cảnh báo: ảnh có vẻ bị mờ, kết quả có thể kém chính xác. | Có 3 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm vui
-vui_3.jpg,easy,Happy,Happy,0.76,True,OK,"Cảnh báo: ảnh có vẻ bị mờ, kết quả có thể kém chính xác. | Có 2 khuôn mặt phát hiện sau khi loại ô trùng, chỉ dùng mặt lớn nhất (nên dùng 1 mặt/ảnh).",biểu cảm vui
+vui_1.jpg,easy,Happy,Happy,0.6,True,OK,,biểu cảm vui
+vui_2.jpg,easy,Happy,Happy,0.78,True,OK,,biểu cảm vui
+vui_3.jpg,easy,Happy,Happy,0.755,True,OK,,biểu cảm vui

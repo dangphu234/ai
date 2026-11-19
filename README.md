@@ -15,8 +15,19 @@ Dự án notebook Jupyter nhận dạng bảy trạng thái cảm xúc khuôn m�
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install tensorflow opencv-python numpy pandas matplotlib scikit-learn ipywidgets pillow
+pip install -r requirements.txt
 ```
+
+Phiên bản đã kiểm thử:
+
+- Python 3.14.6
+- TensorFlow 2.22.0-rc1
+- OpenCV 4.11.0
+- NumPy 2.5.3
+- pandas 3.0.5
+- scikit-learn 1.9.1
+
+Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. File dataset không được lưu trong repository.
 
 ## Chạy
 
