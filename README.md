@@ -6,9 +6,9 @@ Dự án notebook Jupyter nhận dạng bảy trạng thái cảm xúc khuôn m�
 
 - `nhan_dang_cam_xuc_khuon_mat.ipynb`: notebook huấn luyện, đánh giá và demo.
 - `emotion_model.keras`: mô hình đã huấn luyện.
-- `test_images/`: ảnh dùng để kiểm thử.
-- `test_labels.csv`: nhãn tham chiếu của tập test.
-- `ket_qua_test.csv`: kết quả dự đoán trên tập test.
+- `test_images/`: ảnh dùng cho bộ demo/báo cáo, độc lập với các split của FER2013.
+- `test_labels.csv`: nhãn tham chiếu của bộ demo/báo cáo.
+- `ket_qua_test.csv`: kết quả dự đoán trên bộ demo/báo cáo, không phải kết quả PrivateTest của FER2013.
 
 ## Cài đặt
 
@@ -18,7 +18,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Phiên bản đã kiểm thử:
+Phiên bản yêu cầu trong `requirements.txt`:
 
 - Python 3.14.6
 - TensorFlow 2.22.0-rc1
@@ -27,7 +27,7 @@ Phiên bản đã kiểm thử:
 - pandas 3.0.5
 - scikit-learn 1.9.1
 
-Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. File dataset không được lưu trong repository.
+Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. Dataset được lưu trong repository qua Git LFS; cần cài Git LFS để tải đầy đủ file.
 
 ## Chạy
 
