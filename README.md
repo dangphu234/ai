@@ -27,7 +27,14 @@ Phiên bản yêu cầu trong `requirements.txt`:
 - pandas 3.0.5
 - scikit-learn 1.9.1
 
-Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. Dataset được lưu trong repository qua Git LFS; cần cài Git LFS để tải đầy đủ file.
+Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. Dataset được lưu trong repository qua Git LFS. Cài Git LFS và clone bằng:
+
+```bash
+git lfs install
+git clone https://github.com/dangphu234/ai.git
+```
+
+Lưu ý: nếu tải repository bằng nút **Download ZIP**, GitHub có thể chỉ cung cấp file trỏ LFS thay vì đầy đủ dữ liệu `fer2013.csv`; trong trường hợp đó, hãy clone bằng Git hoặc chạy `git lfs pull` trong thư mục repository để tải file đầy đủ.
 
 ## Chạy
 
