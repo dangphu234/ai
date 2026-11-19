@@ -27,7 +27,7 @@ Phiên bản yêu cầu trong `requirements.txt`:
 - pandas 3.0.5
 - scikit-learn 1.9.1
 
-Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. Dataset được lưu trong repository qua Git LFS; cần cài Git LFS để tải đầy đủ file.
+Đặt `fer2013.csv` cạnh notebook trước khi chạy phần huấn luyện. File dataset không được lưu trong repository.
 
 ## Chạy
 

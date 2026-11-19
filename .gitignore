@@ -4,3 +4,4 @@ __pycache__/
 *.py[cod]
 *.log
 .env
+fer2013.csv
