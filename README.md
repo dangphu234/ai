@@ -4,8 +4,8 @@ Dự án notebook Jupyter nhận dạng bảy trạng thái cảm xúc khuôn m�
 
 ## Nội dung
 
-- `nhan_dang_cam_xuc_khuon_mat.ipynb`: notebook huấn luyện, đánh giá và demo.
-- `emotion_model.keras`: mô hình đã huấn luyện.
+- `nhan_dang_cam_xuc_khuon_mat_1.ipynb`: notebook huấn luyện, đánh giá và demo.
+- `emotion_model_ensemble_final.keras`: mô hình ensemble đã huấn luyện.
 - `test_images/`: ảnh dùng cho bộ demo/báo cáo, độc lập với các split của FER2013.
 - `test_labels.csv`: nhãn tham chiếu của bộ demo/báo cáo.
 - `ket_qua_test.csv`: kết quả dự đoán trên bộ demo/báo cáo, không phải kết quả PrivateTest của FER2013.
@@ -41,5 +41,5 @@ Lưu ý: nếu tải repository bằng nút **Download ZIP**, GitHub có thể c
 Mở notebook bằng Jupyter hoặc VS Code rồi chạy lần lượt các cell:
 
 ```bash
-jupyter notebook nhan_dang_cam_xuc_khuon_mat.ipynb
+jupyter notebook nhan_dang_cam_xuc_khuon_mat_1.ipynb
 ```

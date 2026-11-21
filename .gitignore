@@ -5,3 +5,10 @@ __pycache__/
 *.log
 .env
 fer2013.csv
+# Local Python environment and image datasets (keep local, do not push to GitHub)
+fane_data/
+fane_data_quarantine/
+fane_fer48/
+
+# Generated retraining output
+emotion_model_retrained.keras
