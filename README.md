@@ -43,3 +43,11 @@ Mở notebook bằng Jupyter hoặc VS Code rồi chạy lần lượt các cell
 ```bash
 jupyter notebook nhan_dang_cam_xuc_khuon_mat.ipynb
 ```
+
+## Chạy trên Google Colab
+
+Mở notebook trực tiếp từ GitHub bằng liên kết:
+
+- https://colab.research.google.com/github/dangphu234/ai/blob/main/nhan_dang_cam_xuc_khuon_mat.ipynb
+
+Notebook sẽ tự clone repository công khai này khi chạy trong Colab, rồi lấy lại dataset `fer2013.csv` qua Git LFS nếu Git LFS đã sẵn sàng. Liên kết chỉ mở notebook trên Colab; nó không copy notebook hay mô hình vào Google Drive.
